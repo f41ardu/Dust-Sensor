@@ -22,9 +22,9 @@ class DustSensor
     //   PinClass(const LED& a);      // Copy-Konstruktor wird nicht benötigt
     ~DustSensor();                    // Class Destruktor
 
-    float dustDensity();              // Staubdicht ausgeben
+    float dustDensity();              // Staubdichte ausgeben
     float raw();                      // raw daten ausgeben
-    float voltage();                  // spannung berechnen
+    float voltage();                  // Spannung berechnen
 
   private:                            // privat
     int _ledPin, _measurePin;
